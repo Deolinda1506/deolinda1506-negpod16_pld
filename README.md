@@ -22,9 +22,11 @@ Basic Accessibility Features: Ensure accessibility with text-based content.
 Responsive Design: Optimize for different devices with varying screen sizes.
 Basic Communication Features: Include discussion forums for text-based communication among students and teachers.
 
-
-
-Contributors
+Description
 
 Summary
+
+Project Status
+
+Contributors
 
