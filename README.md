@@ -23,6 +23,7 @@ Responsive Design: Optimize for different devices with varying screen sizes.
 Basic Communication Features: Include discussion forums for text-based communication among students and teachers.
 
 Description
+This app is a user friendly platofrm specifically designed for local school students between the age of 10-16 years old seeking an accessible curriculum-aligned platform for tourism education.
 
 Summary
 
