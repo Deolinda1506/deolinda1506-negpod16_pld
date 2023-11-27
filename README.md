@@ -1,4 +1,14 @@
 PLD IMPLEMENTATION
+Negpod 16
+
+Table of Content 
+Overview
+Key Features
+Description
+Contributors
+
+
+
 Menu Driven Application for Tourism Education Program for Local Schools.
 
 
@@ -32,9 +42,8 @@ To encourage self-directed learning and independent exploration in the sense of 
 To create an accesible interface that aligns with the school curriculum.
 
 
-Summary
-
-Project Status
-
 Contributors
+Déolinda Bio Bogore
+Tamanda
+Angel Kevine 
 
