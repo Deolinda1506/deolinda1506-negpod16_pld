@@ -29,9 +29,7 @@ Accesible learning: Its inclusive interface accomodates various learning styles 
 Interactive engagement; The apps has certaing features that keeps learners engaged in fun while learning. 
 The main objectives of this application are; 
 To encourage self-directed learning and independent exploration in the sense of tourism.
-
-
-
+To create an accesible interface that aligns with the school curriculum.
 
 
 Summary
