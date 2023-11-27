@@ -23,7 +23,16 @@ Responsive Design: Optimize for different devices with varying screen sizes.
 Basic Communication Features: Include discussion forums for text-based communication among students and teachers.
 
 Description
-This app is a user friendly platofrm specifically designed for local school students between the age of 10-16 years old seeking an accessible curriculum-aligned platform for tourism education.
+This app is a user friendly platofrm specifically designed for local school students between the age of 10-16 years old seeking an accessible curriculum-aligned platform for tourism education. Its user experience interface is as follows;
+Clear and straightforward navigation: The application aims to ensure a smooth navigation for learners to be able to independently explore it.
+Accesible learning: Its inclusive interface accomodates various learning styles to suit different learners.
+Interactive engagement; The apps has certaing features that keeps learners engaged in fun while learning. 
+The main objectives of this application are; 
+To encourage self-directed learning and independent exploration in the sense of tourism.
+
+
+
+
 
 Summary
 
