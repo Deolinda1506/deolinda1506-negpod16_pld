@@ -3,9 +3,10 @@ NEGPOD16
 
 Table of Contents
 
-Summary
+Overview
+Key Features 
 Description
 Contributors
-
-Summary
-
+Deolinda Bio Bogore
+Angel Kevine
+Tamanda
