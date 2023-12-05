@@ -1,13 +1,9 @@
-#!/usr/bin/python3
-
 import sqlite3
 
-# Function to create the database and tables
 def create_database():
     conn = sqlite3.connect("tourism_education.db")
     cursor = conn.cursor()
 
-    # Create landmarks table
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS landmarks (
             id INTEGER PRIMARY KEY,
@@ -16,7 +12,6 @@ def create_database():
         )
     ''')
 
-    # Create user progress table
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS user_progress (
             user_id INTEGER PRIMARY KEY,
@@ -24,15 +19,23 @@ def create_database():
         )
     ''')
 
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS user_landmarks (
+            user_id INTEGER,
+            landmark_id INTEGER,
+            PRIMARY KEY (user_id, landmark_id),
+            FOREIGN KEY (user_id) REFERENCES user_progress(user_id),
+            FOREIGN KEY (landmark_id) REFERENCES landmarks(id)
+        )
+    ''')
+
     conn.commit()
     conn.close()
 
-# Function to welcome students to the program
 def welcome():
     print("Welcome to the Tourism Education Program!")
     print("Let's explore the local tourism industry.\n")
 
-# Function to display the main menu
 def display_menu():
     print("MENU:")
     print("1. Learn about local landmarks and attractions")
@@ -40,7 +43,45 @@ def display_menu():
     print("3. View your progress")
     print("4. Exit")
 
-# Function to handle user input and validation
+def explore_landmarks():
+    conn = sqlite3.connect("tourism_education.db")
+    cursor = conn.cursor()
+
+    # Fetch all landmarks from the database
+    cursor.execute("SELECT * FROM landmarks")
+    landmarks = cursor.fetchall()
+
+    print("List of Local Landmarks:")
+    for landmark in landmarks:
+        print(f"{landmark[0]}. {landmark[1]} - {landmark[2]}")
+
+    conn.close()
+
+def chat_with_program():
+    print("Chat with the program.")
+    # Add logic for chat functionality
+
+def view_progress():
+    user_id = input("Enter your user ID: ")
+
+    conn = sqlite3.connect("tourism_education.db")
+    cursor = conn.cursor()
+
+    # Fetch user's visited landmarks from the database
+    cursor.execute("SELECT landmarks_visited FROM user_progress WHERE user_id = ?", (user_id,))
+    result = cursor.fetchone()
+
+    if result:
+        visited_landmarks = result[0]
+        if visited_landmarks:
+            print(f"You have visited the following landmarks: {visited_landmarks}")
+        else:
+            print("You haven't visited any landmarks yet.")
+    else:
+        print("User not found.")
+
+    conn.close()
+
 def get_user_input(prompt, options=None):
     while True:
         user_input = input(prompt).strip()
@@ -50,7 +91,6 @@ def get_user_input(prompt, options=None):
         else:
             return user_input
 
-# Main function to orchestrate the program
 def main():
     create_database()
     welcome()
@@ -60,17 +100,16 @@ def main():
         choice = get_user_input("Enter the number of your choice (1-4): ", options=["1", "2", "3", "4"])
 
         if choice == "1":
-            print("Explore local landmarks and attractions.")
+            explore_landmarks()
         elif choice == "2":
-            print("Chat with the program.")
+            chat_with_program()
         elif choice == "3":
-            print("View your progress.")
+            view_progress()
         elif choice == "4":
             print("Thank you for using the Tourism Education Program. Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
 
-# Execute the main function if the script is run
 if __name__ == "__main__":
     main()
