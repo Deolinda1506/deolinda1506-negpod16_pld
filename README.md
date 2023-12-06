@@ -1,10 +1,7 @@
-# PLD IMPLEMENTATION
-Negpod 16
+# **Tourism Education Program for Local Schools**
+## Negpod 16
 
-<<<<<<< HEAD
-Table of Contents
-
-Overview
+### Overview
 Key Features 
 Description
 Contributors
