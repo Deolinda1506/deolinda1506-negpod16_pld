@@ -55,7 +55,7 @@ To create an accesible interface that aligns with the school curriculum.
 
 Contributors
 Déolinda Bio Bogore
-Tamanda
-Angel Kevine 
+Tamanda Lynn
+Gitego Rugema Angel Kevine 
 
 >>>>>>> 26af0cd4247f5392b6cc6fef63a9158b657a7d3d
