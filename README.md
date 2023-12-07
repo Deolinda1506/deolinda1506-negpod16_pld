@@ -10,7 +10,7 @@ The Tourism Education Program for Local Schools is a Python-based, menu-driven a
 ##### Getting Started
 - Prerequisites
 - Installation
- <Usage>
+ ##### Usage
 
 
 
@@ -23,7 +23,7 @@ The Tourism Education Program for Local Schools is a Python-based, menu-driven a
 
 ## **Getting Started**
 
-### Prerequisites
+ > ### Prerequisites
 
 Python 3
 
