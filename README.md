@@ -3,6 +3,7 @@
 ## **Overview**
 
 The Tourism Education Program for Local Schools is a Python-based, menu-driven application with SQL database integration. It aims to provide students with a basic understanding and appreciation of the local tourism industry through structured and interactive learning modules.
+Table of Content 
 
 Key Features 
 Description
@@ -29,18 +30,10 @@ The Tourism Education Program for Local Schools is a Python-based, menu-driven a
 
 Key Features
 
-Introduction Level: Welcome students and provide an overview of the program's features.
-Information Level: Display details about local landmarks and attractions.
-Communication Level: Facilitate text-based communication between students and educators.
-Database Integration: Utilize SQL for efficient data storage and retrieval.
-Menu-Driven Interaction: Enable users to navigate through different program options easily.
-Basic Multimedia Support: Integrate limited multimedia content for interactive learning.
-Language Support: Provide support for a single language for simplicity.
-Basic Security Measures: Implement measures to protect user data.
-Basic Technical Support: Offer assistance through a simple help function.
-Basic Accessibility Features: Ensure accessibility with text-based content.
-Responsive Design: Optimize for different devices with varying screen sizes.
-Basic Communication Features: Include discussion forums for text-based communication among students and teachers.
+Menu-Driven Interface: The program features a user-friendly menu-driven interface, allowing students to navigate seamlessly.
+SQL Database Integration: Utilizes SQL for storing and retrieving information about local landmarks and attractions.
+Structured Learning Levels: The program offers structured learning levels, gradually introducing students to different aspects of the local tourism industry.
+Practical Feedback: Provides practical feedback based on students' interactions, enhancing the learning experience.
 
 Description
 This app is a user friendly platofrm specifically designed for local school students between the age of 10-16 years old seeking an accessible curriculum-aligned platform for tourism education. Its user experience interface is as follows;
