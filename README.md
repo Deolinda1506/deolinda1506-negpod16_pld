@@ -8,7 +8,7 @@ The Tourism Education Program for Local Schools is a Python-based, menu-driven a
 # **Table of Content** 
 
 # Key Features 
-# **Getting Started**
+# Getting Started
 - Prerequisites
 - Installation
 # Usage
@@ -26,6 +26,7 @@ Practical Feedback: Provides practical feedback based on students' interactions,
 ### Prerequisites
 
 Python 3
+
 Git
 
 ### Installation
