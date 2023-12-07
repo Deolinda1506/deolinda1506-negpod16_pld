@@ -8,8 +8,8 @@ The Tourism Education Program for Local Schools is a Python-based, menu-driven a
 # **Table of Content** 
 ##### <Key Features>
 ##### <Getting Started>
-- <Prerequisites>
-- <Installation>
+- Prerequisites
+- Installation
 ##### <Usage>
 
 
@@ -31,7 +31,7 @@ Git
 
 ### Installation
 
-git clone > <https://github.com/Deolinda1506/tourism_education_program_ls.git>
+git clone <https://github.com/Deolinda1506/tourism_education_program_ls.git>
 
    > cd tourism-education-program_ls
 
