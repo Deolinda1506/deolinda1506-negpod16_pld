@@ -6,12 +6,12 @@ The Tourism Education Program for Local Schools is a Python-based, menu-driven a
 
 
 # **Table of Content** 
-
 ##### Key Features 
 ##### Getting Started
 - Prerequisites
 - Installation
 ##### Usage
+
 
 
 ## **Key Features** 
